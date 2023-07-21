@@ -56,15 +56,39 @@
 		C5150EC52A6B380300E22856 /* finApp_TeamHW */ = {
 			isa = PBXGroup;
 			children = (
-				C5150EC62A6B380300E22856 /* AppDelegate.swift */,
-				C5150EC82A6B380300E22856 /* SceneDelegate.swift */,
-				C5150ECA2A6B380300E22856 /* ViewController.swift */,
-				C5150ECC2A6B380300E22856 /* Main.storyboard */,
+				C5150EDA2A6B39B200E22856 /* App */,
+				C5150EDB2A6B39BC00E22856 /* ViewControllers */,
+				C5150EDC2A6B39CA00E22856 /* Storyboards */,
 				C5150ECF2A6B380600E22856 /* Assets.xcassets */,
-				C5150ED12A6B380600E22856 /* LaunchScreen.storyboard */,
-				C5150ED42A6B380600E22856 /* Info.plist */,
 			);
 			path = finApp_TeamHW;
+			sourceTree = "<group>";
+		};
+		C5150EDA2A6B39B200E22856 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C5150EC62A6B380300E22856 /* AppDelegate.swift */,
+				C5150EC82A6B380300E22856 /* SceneDelegate.swift */,
+				C5150ED42A6B380600E22856 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C5150EDB2A6B39BC00E22856 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C5150ECA2A6B380300E22856 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		C5150EDC2A6B39CA00E22856 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C5150ECC2A6B380300E22856 /* Main.storyboard */,
+				C5150ED12A6B380600E22856 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = finApp_TeamHW/Info.plist;
+				INFOPLIST_FILE = finApp_TeamHW/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = finApp_TeamHW/Info.plist;
+				INFOPLIST_FILE = finApp_TeamHW/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
